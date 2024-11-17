@@ -18,38 +18,65 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (VM)
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Azure Virtual Machine
+- osTicket Installation files
+- Heidi SQL
 
 <h2>Installation Steps</h2>
 
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+A screenshot showing how to create a virtual machine in Microsoft Azure can be found below.
+We are setting up and labeling our virtual machine as osticket-vm in this example. This will act as the cornerstone for effectively hosting and managing osTicket.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/w7P1BjA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+We utilize our PC's Remote Desktop Connection program to access the virtual machine once it has been configured in Microsoft Azure. 
+We download the osTicket installation files straight to the virtual machine after logging in. 
+By doing this, the virtual machine is ready for the installation procedure and all required files are there.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/IDcF14c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+The Common Gateway Interface (CGI) and Internet Information Services (IIS) must then be enabled.
+To accomplish this, launch your computer's Control Panel. Choose Turn Windows Features On or Off from the left-hand panel after selecting Uninstall or Change a Program. 
+Find and choose the Internet Information Services (IIS) box in the Windows Features menu. Check the option for CGI after expanding World Wide Web Services and then Application Development Features. 
+To save your modifications, click OK. Windows will then install the required updates.
+
 </p>
+<p>
+<img src="https://i.imgur.com/txunFmu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<br />
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
