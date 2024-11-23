@@ -72,3 +72,14 @@ Below Screenshot is where we are done installing osTicket.
 <img src="https://i.imgur.com/flXTThg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<br />
+
+<p>
+Below link is where you can log.in as a administrator:
+<br />
+Browse to your help desk login page: (http://localhost/osTicket/scp/login.php)
+
+Below link is where you can log.in as End Users osTicket URL:
+<br />
+http://localhost/osTicket/ 
+</p>
