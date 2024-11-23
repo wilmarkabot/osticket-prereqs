@@ -77,7 +77,9 @@ Below Screenshot is where we are done installing osTicket.
 <p>
 Below link is where you can log.in as a administrator:
 <br />
-Browse to your help desk login page: (http://localhost/osTicket/scp/login.php)
+Browse to your help desk login page:
+<br />
+http://localhost/osTicket/scp/login.php
 
 Below link is where you can log.in as End Users osTicket URL:
 <br />
